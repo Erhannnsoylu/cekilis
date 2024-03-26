@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(170, 170, 170);
+}
+
+.baslik {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+    color: rgb(205, 214, 184); 
+}
+
+#baslik1 {
+    height: 100px;
+    width: 600px;
+    margin: auto;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+#cekilis {
+    height: 800px;
+    width: 600px;
+    margin: auto;
+    background-color:rgb(205, 214, 184);
+    border-radius: 10px;
+}
+
+#cekilis h2 {
+    font-size: 40px;
+    text-align: left; 
+    margin-left: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#cekilis p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 27px;
+    font-family: 'Caveat', cursive;
+}
+
+#cekilis button{
+    margin-top: 40px;
+    margin-left: 145px;
+    font-size: 30px;
+    padding: 10px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+#cekilis button:hover {
+    color: black;
+    background-color: rgb(205, 214, 184);
+    border-color: black;
+    transition: 0.3s ease all;
+    border-radius: 10px;
+}
